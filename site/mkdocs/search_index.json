@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "SockDrawer\n\n\nA work in progress.\n\n\nOfficial discussion thread on WTDWTF", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#sockdrawer", 
+            "text": "A work in progress.  Official discussion thread on WTDWTF", 
+            "title": "SockDrawer"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "About the SockDevs\n\n\nAccalia de Elementia\n\n\nFounder of SockDrawer and initial creator of SockBot. \n\n\nRaceproUK\n\n\nAccalia's queen\n\n\nOnyx\n\n\nThe design guy\n\n\nYamikuronue\n\n\nThe dominatrix of debugging, temptress of testing, and wonton wordsmith.\n\n\nOther Members\n\n\n\n\nAliceIf\n\n\nTwelveBaud\n\n\nKuro", 
+            "title": "About"
+        }, 
+        {
+            "location": "/about/#about-the-sockdevs", 
+            "text": "", 
+            "title": "About the SockDevs"
+        }, 
+        {
+            "location": "/about/#accalia-de-elementia", 
+            "text": "Founder of SockDrawer and initial creator of SockBot.", 
+            "title": "Accalia de Elementia"
+        }, 
+        {
+            "location": "/about/#raceprouk", 
+            "text": "Accalia's queen", 
+            "title": "RaceproUK"
+        }, 
+        {
+            "location": "/about/#onyx", 
+            "text": "The design guy", 
+            "title": "Onyx"
+        }, 
+        {
+            "location": "/about/#yamikuronue", 
+            "text": "The dominatrix of debugging, temptress of testing, and wonton wordsmith.", 
+            "title": "Yamikuronue"
+        }, 
+        {
+            "location": "/about/#other-members", 
+            "text": "AliceIf  TwelveBaud  Kuro", 
+            "title": "Other Members"
+        }
+    ]
+}
