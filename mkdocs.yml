@@ -1,0 +1,7 @@
+site_name: SockDrawer
+pages:
+- Home: 'index.md'
+- About: 'about.md'
+theme: readable
+repo_url: https://github.com/SockDrawer
+site_url: http://sockdrawer.github.io
