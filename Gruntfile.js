@@ -10,16 +10,23 @@ module.exports = function(grunt) {
           }
         }
       },
-      'gh-pages': {
-    		options: {
-    			// The default commit message for the gh-pages branch
-    			base: 'site',
-    			message: 'push documentation automatically',
-    			repo: 'https://' + process.env.GH_TOKEN + '@github.com/SockDrawer/SockDrawer.github.io',
-    			branch: 'master'
-    		},
-    		src: "**"
-    	}
+      gitadd: {
+		task: {
+		  options: {
+			all: true,
+			cwd:"./site"
+		  }
+		}
+	  },
+	  gitcommit: {
+		your_target: {
+		  options: {
+			cwd: "./site",
+			message: "Automatic commit of built site.",
+			allowEmpty: true
+		  }
+		}
+	  }
   });
 
   grunt.loadNpmTasks('grunt-mkdocs');
@@ -27,6 +34,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-git');
 
   // Default task(s).
-  grunt.registerTask('build', ['mkdocs', 'gitadd', 'gitcommit']);
+  grunt.registerTask('build', ['mkdocs', 'gitadd']);
 
 };
