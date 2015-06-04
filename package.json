@@ -1,0 +1,27 @@
+{
+  "name": "SockDrawer.github.io",
+  "version": "1.0.0",
+  "description": "Sockdrawer website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SockDrawer/SockDrawer.github.io"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SockDrawer/SockDrawer.github.io/issues"
+  },
+  "homepage": "https://github.com/SockDrawer/SockDrawer.github.io",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-git": "^0.3.5",
+    "grunt-mkdocs": "^0.1.0"
+  }
+}
